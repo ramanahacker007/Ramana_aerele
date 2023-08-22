@@ -2,6 +2,10 @@
 
 I used mysql for this project.
 
+Frontend: Html & Css
+
+Backend : Pyhton , Pyhton-flask framework , Mysql
+
 NOTE: I used users table name instead of company name
 
 **The tables : initialy tables are empty......**
@@ -22,3 +26,4 @@ users(id,username,password,cash_balance)
 ![Screenshot (213)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/05d271b7-539f-4e66-b7e8-8fc77a90f565)
 
 
+After i created table in mysql , i used visual code to run the above app.py and templates codes.
