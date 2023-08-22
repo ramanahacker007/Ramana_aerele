@@ -1,6 +1,6 @@
 # Ramana_aerele_project.
 
-I used mysql and flask for this project databse connection.
+I used mysql and flask for this project database connection.
 
 Frontend: Html & Css
 
