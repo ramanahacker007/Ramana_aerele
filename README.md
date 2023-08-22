@@ -94,7 +94,13 @@ This is the simple process i created , i took me very hard to complete this beca
 
 **Now i done three purchases and show you the updated mysql database**
 
+![Screenshot (229)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/22606d23-bae0-4937-9b27-37558add7fe0)
 
+![Screenshot (230)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/9178de43-6cf3-4299-9a52-459e370977a5)
+
+![Screenshot (231)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/05851cf2-3546-42a5-9269-b89fbdc01490)
+
+![Screenshot (232)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/fbbbee48-c31f-4318-84ff-fd7bcde8a95b)
 
 
 
