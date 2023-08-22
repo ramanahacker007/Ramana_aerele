@@ -1,4 +1,4 @@
-![Screenshot (213)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/ba2d64d6-063a-430b-ac7e-5de913cdd8d6)# Ramana_aerele_project.
+# Ramana_aerele_project.
 I used mysql for this project.
 NOTE:I used users table name instead of company name
 
