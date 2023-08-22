@@ -4,7 +4,7 @@ I used mysql and flask for this project databse connection.
 
 Frontend: Html & Css
 
-Backend : Pyhton , Pyhton-flask framework , Mysql
+Backend : Python , Python-flask framework , Mysql
 
 NOTE: I used users table name instead of company name
 
