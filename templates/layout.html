@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerele Petty Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style> 
+    body {
+      margin: 0;
+      padding: 40px;
+      padding-left:100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #e1eaee; /* Background color */
+      font-family: Arial, sans-serif;
+     }
+     header{
+      justify-content: center;
+     }
+     </style>
+     
+</head>
+<header>
+  <div class="container">
+    <div class="row mt-1">
+        <h1>NAMMA KADAI</h1>
+        <p>Buy and sell!</p>
+    </div>
+  </div>
+</header>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+          <div class="col-md-4">
+              <a href="{{ url_for('login') }}" class="btn btn-primary btn-block">Login</a>
+          </div>
+          <div class="col-md-4">
+              <a href="{{ url_for('register') }}" class="btn btn-primary btn-block">Register</a>
+          </div>
+      </div>
+    </div>
+</body>
+</html>

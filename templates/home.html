@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Welcome {{ username }}!</h1>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <a href="{{ url_for('view_purchases') }}" class="btn btn-primary btn-block">View Purchases</a>
+            </div>
+            <div class="col-md-4">
+                <a href="{{ url_for('view_sales') }}" class="btn btn-primary btn-block">View Sales</a>
+            </div>
+            <div class="col-md-4">
+                <a href="{{ url_for('add_item') }}" class="btn btn-primary btn-block">Add Item</a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <a href="{{ url_for('view_added_item') }}" class="btn btn-primary btn-block">View Added Items</a>
+            </div>
+            <div class="col-md-4">
+                <a href="{{ url_for('report') }}" class="btn btn-primary btn-block">Cash Balance</a>
+            </div>
+            <div class="col-md-4">
+                <a href="{{ url_for('logout') }}" class="btn btn-danger btn-block">logout</a>
+            </div>
+        </div>
+        <h2 class="mt-5">Available Items</h2>
+        <div class="row mt-3">
+            {% for item in items %}
+            <div class="col-md-4">
+                <div class="item-card">
+                    <h5 class="item-title">{{ item[1] }}</h5>
+                    <p class="item-price">Price: ${{ item[2] }}</p>
+                    <form method="POST" action="{{ url_for('purchase') }}">
+                        <input type="hidden" name="item_id" value="{{ item[0] }}">
+                        <input type="number" name="quantity" value="1" min="1" required>
+                        <button type="submit" class="btn btn-primary">Purchase</button>
+                    </form>
+                    
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
