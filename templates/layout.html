@@ -8,39 +8,36 @@
     <style> 
     body {
       margin: 0;
-      padding: 40px;
-      padding-left:100px;
+      padding: 0px;
+      padding-left:0px;
+      padding-right: 170px;
+      padding-bottom: 20px;
       display: flex;
+      margin: auto;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
       background-color: #e1eaee; /* Background color */
       font-family: Arial, sans-serif;
      }
-     header{
-      justify-content: center;
-     }
      </style>
      
 </head>
-<header>
-  <div class="container">
-    <div class="row mt-1">
-        <h1>NAMMA KADAI</h1>
-        <p>Buy and sell!</p>
-    </div>
-  </div>
-</header>
 <body>
     <div class="container">
-        <div class="row mt-4">
+      <center>
+        <h1>Welcome to aerele petty shop!</h1>
+      </br>
+        <div class="col-md-8">
           <div class="col-md-4">
               <a href="{{ url_for('login') }}" class="btn btn-primary btn-block">Login</a>
           </div>
+        </br>
           <div class="col-md-4">
               <a href="{{ url_for('register') }}" class="btn btn-primary btn-block">Register</a>
           </div>
-      </div>
+        </div>
+      </center>
     </div>
 </body>
 </html>
