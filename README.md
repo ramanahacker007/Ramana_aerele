@@ -32,7 +32,7 @@ After i created table in mysql , i used visual code to run this project.
 
 This is the layout.html page , here i added login and register button, if new user he will register else login.
 
-![Screenshot (214)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/67b8905c-bb2b-4a3d-83b3-d4c8cc0388c6)
+![Screenshot (233)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/77c3ac90-da10-4ba4-93a9-85103597d306)
 
 This is the login.html page, 
 
