@@ -90,7 +90,7 @@ Now you can also check the added_items record , two pencil is reduced and one ba
 
 ![Screenshot (228)](https://github.com/ramanahacker007/Ramana_aerele/assets/81798536/aecfb4fa-f05a-483c-b8eb-458d08592c49)
 
-This is the simple process i created , i took me very hard to complete this because i didn't know about flask before this project.
+This is the simple process i created , It took me very hard to complete this because i didn't know about flask before this project.
 
 **Now i done three purchases and show you the updated mysql database**
 
